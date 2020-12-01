@@ -27,7 +27,7 @@ To Start:
 - def create
 - def save
 - def find
-- def index
+- def all
 - def update
 - def delete 
 
