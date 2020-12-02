@@ -1,10 +1,13 @@
 require "test_helper"
 
 class ProductTest < ActiveSupport::TestCase
-  test 'insert' do 
+  test 'create' do 
   end 
 
-  test 'read' do 
+  test 'all' do 
+  end
+
+  test 'find' do 
   end
 
   test 'update' do 
