@@ -24,11 +24,11 @@ To Start:
 3. Feel free to change the ruby version if needed
 
 ### Required Methods 
-- def create
-- def save
-- def find
-- def all
-- def update
+- def self.create(params)
+- def self.save(params)
+- def self.find(id)
+- def self.all
+- def update(parmas)
 - def delete 
 
 Note: Assume that the Product Model is using a Primary Key and not composite keys. 
