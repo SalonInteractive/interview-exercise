@@ -2,11 +2,11 @@
 
 ---
 
-The SalonInterview exercise will be implementing a ORM in Ruby and and integrating it with Rails. You will basically be mimicing the CRUD functinality of ActiveRecord.
+The SalonInterview exercise will be implementing a ORM in Ruby and and integrating it with Rails. You will basically be mimicing the CRUD functionality of ActiveRecord.
 
-This Exercise is expected to take around 4 hours 
+This exercise is expected to take around 4 hours.
 
-If you have any questions about the exercise or any questions during the exercise, please reach out to your interviewer
+If you have any questions about the exercise, please don't hesitate to reach out to your interviewer.
 
 ---
 
@@ -14,14 +14,14 @@ If you have any questions about the exercise or any questions during the exercis
 
 In this project, you will find: 
 - `app/models/product.rb` - Model to extend the abstract model 
-- `tests/models/product_test.rb` - Unit Tests for you to write out
+- `tests/models/product_test.rb` - Unit tests for you to write out
 
-The `Product` Model extends a parents class `AbstractModel` that you will build. 
+The `Product` Model extends a parent class `AbstractModel`, which you will build. 
 
 To Start: 
-1. Create a mysql database and use any mySQL adapter of your choosing. 
+1. Create a MySQL database and use any MySQL adapter of your choosing. 
 2. Run the migration in the project to create the product table.
-3. Feel free to change the ruby version if needed
+3. Feel free to change the Ruby version if needed
 
 ### Required Methods 
 - def self.create(params)
@@ -41,7 +41,7 @@ Once implemented, make sure that your unit tests are written and that they pass 
 
 ---
 
-With Rails, Create routes that will let you manage the product(s) using the ORM implentation and not ActiveRecord.
+With Rails, create routes that will let you manage the product(s) using your ORM implentation—not ActiveRecord.
 
 ### Required
 - Page that lets you view the products 
@@ -54,4 +54,4 @@ With Rails, Create routes that will let you manage the product(s) using the ORM 
 
 ---
 
-Once complete, submit a pull request with your implementation and send us an email back that it is completed.
+Once complete, submit a pull request with your implementation and send your interviewer an email that it is completed.
